@@ -118,9 +118,9 @@ CICADA currently uses a distilled neural network model with layer-wise quantizat
   <details open>
   <summary>Details</summary>  
 
-  - Achieved ~**2× lower latency** and ~**6× lower FPGA resource usage** (Vitis HLS estimates).  
-  - HGQ library suggests further reductions can be expected after place-and-route.  
-
+  - Achieved **100% reduction in DSP usage** and dramatically reduced other FPGA resources (**~94% fewer Flip-Flops, ~84% fewer LUTs**) compared to the original QKeras-based model, significantly lowering hardware costs (Vitis HLS estimates).
+  - HGQ library suggests further reductions can be expected after place-and-route.
+  - **Reduced inference latency by 50%**, while **maintaining the original model’s predictive performance**.
   </details>
 
 
