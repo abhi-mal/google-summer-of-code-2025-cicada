@@ -109,7 +109,7 @@ CICADA currently uses a distilled neural network model with layer-wise quantizat
   <summary>Details</summary>  
 
   - Submitted a paper based on this project to a machine learning workshop.  
-  - Will also be presenting results at **FastML 2025 in Zurich** → [Indico Link](https://indico.cern.ch/event/1496673/).  
+  - Will also be presenting results at **FastML 2025 in Zurich** → [Indico Link](https://indico.cern.ch/event/1496673/contributions/6637975/).  
 
   </details>
   
