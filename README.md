@@ -81,7 +81,7 @@ CICADA currently uses a distilled neural network model with layer-wise quantizat
   <summary>Details</summary>  
 
   - The existing synthesis evaluation workflow used internal CMSSW software → [Tool](https://github.com/pallabidas/L1TRegionDumper).  
-  - Designed an alternative faster workflow to test new models.  
+  - Designed an alternative faster workflow to test new models.  [Fork](https://github.com/abhi-mal/ctp7cpp/tree/hgq)
   - Verified that HGQ student models are indeed performing as desired.  
 
   </details>
@@ -108,7 +108,7 @@ CICADA currently uses a distilled neural network model with layer-wise quantizat
   <details open>
   <summary>Details</summary>  
 
-  - Submitted a paper based on this project to a machine learning workshop.  
+  - Paper accepted to NeurIPS Machine Learning for Physical Sciences workshop 2025 → [Link](https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_352.pdf)  
   - Will also be presenting results at **FastML 2025 in Zurich** → [Indico Link](https://indico.cern.ch/event/1496673/contributions/6637975/).  
 
   </details>
@@ -136,7 +136,8 @@ CICADA currently uses a distilled neural network model with layer-wise quantizat
 3. [hls4ml Issue #1364](https://github.com/fastmachinelearning/hls4ml/issues/1364)  
 4. [hls4ml PR #1365](https://github.com/fastmachinelearning/hls4ml/pull/1365)  
 5. [CMSSW Dumper Tool](https://github.com/pallabidas/L1TRegionDumper)  
-6. [FastML 2025 Workshop](https://indico.cern.ch/event/1496673/)  
+6. [FastML 2025 Workshop](https://indico.cern.ch/event/1496673/)
+7. [Synthesis evaluation workflow](https://github.com/abhi-mal/ctp7cpp/tree/hgq)
 
 </details>
 
@@ -165,9 +166,9 @@ These experiences strengthened both my technical skills and collaborative proble
 <summary>Click to expand</summary>
 
 - Investigate if training can be improved by including student feedback to the teacher.
-- Perform full **place-and-route** and check the HGQ library claim of further drop in resources.
-- Further explore **outlier exposure** training methods.  
-- The reduced resource usage opens the possibility of exploring more advanced student models that incorporate the additional input variables studied this summer. These variables were shown to be physically significant, but are not included in the current QKeras-based CICADA student model.
+- Perform full place-and-route and check the HGQ library claim of further drop in resources.
+- Further explore outlier exposure training methods.  
+- The reduced resource usage opens the possibility of exploring more advanced student models that incorporate the additional input variables studied this summer. These variables showed promising potential during preliminary studies but are not included in the current QKeras-based CICADA student model.
 
 </details>
 
